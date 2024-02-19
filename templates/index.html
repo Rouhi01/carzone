@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    {% include 'inc/head_tag.html' %}
+</head>
+<body>
+    <div class="page_loader"></div>
+
+    <!-- Top header start -->
+    {% include 'inc/top_header.html' %}
+    <!-- Top header end -->
+
+    <!-- Main header start -->
+    {% include 'inc/main_header.html' %}
+    <!-- Main header end -->
+
+    {% block content %}{% endblock %}
+
+    {% include 'inc/full_page_search.html' %}
+
+    <!-- Footer start -->
+    {% include 'inc/footer.html' %}
+    <!-- Footer end -->
+
+
+    {% include 'inc/script_links.html' %}
+</body>
+</html>
