@@ -121,7 +121,6 @@ $(function () {
             }
         } else {
             $('.company-logo img').attr('src', 'static/img/logos/black-logo.png');
-            $('.company-logo img').attr('src', 'static/img/logos/black-logo.png');
         }
     }
 
