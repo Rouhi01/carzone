@@ -40,6 +40,12 @@ INSTALLED_APPS = [
 
     # APPS
     'pages.apps.PagesConfig',
+    'cars.apps.CarsConfig',
+
+    # Foreign
+    'ckeditor',
+    'multiselectfield',
+    'django.contrib.humanize'
 ]
 
 MIDDLEWARE = [
@@ -126,6 +132,7 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
     os.path.join(BASE_DIR, 'pages/static'),
+    os.path.join(BASE_DIR, 'cars/static'),
 ]
 
 # Media files
