@@ -35,3 +35,7 @@ div.breadcrumbs{
 a:link, a:visited{
   color: #1c1f1f;
 }
+
+#header a:link, #header a:visited, #logout-form button {
+    color: #1c1f1f;
+}

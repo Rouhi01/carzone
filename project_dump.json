@@ -1,0 +1,860 @@
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$720000$5rHOPkmOKbHqxqW7NCI6wr$suR1e2vDt7qTU7caaHHPCs8n4ewvApOYtsw3oOlkzNY=",
+        "last_login": "2024-02-27T07:01:15.480Z",
+        "is_superuser": true,
+        "username": "root",
+        "first_name": "Root",
+        "last_name": "Root",
+        "email": "root@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-02-20T14:39:47Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$720000$BaaiTiEwdH6ex7CkOC7cKJ$GfvjkcWA0i6aEGEnUGX8FydQRaJZD0PM0/lx2KShbuw=",
+        "last_login": "2024-02-27T06:31:34.939Z",
+        "is_superuser": false,
+        "username": "john_doe",
+        "first_name": "john",
+        "last_name": "doe",
+        "email": "john_doe@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-02-24T22:52:44.343Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "kousz13drzdu98idt5gslcl3iwpsz2b7",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSE8CkxduvcbyDAMUjUlKe3K-O_apAvd3nPOfYmI21rj1nmJUxZnocXpd0tID553kO8435qkNq_LlOSuyIN2eW2Zn5fD_Tuo2Ou39tZbQgph5KIITfAIhSjoUZMD9oPTYBVko8qApiRwamSLDhUEBhPE-wPgCzd_:1rerSl:0d_4TFl_jmWuHsBRIipmqSs7SZlTbxODW11bERYjl1U",
+        "expire_date": "2024-03-12T07:01:15.483Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "qdexcj7nobw3uy8j3fkswv59fb9vr41o",
+    "fields": {
+        "session_data": ".eJxlULtuhDAQ_JetETIs9tqU6fMFUYTWD8DJnR2BSXO6fw9caC7pVvPS7NyAnctbKgNvZQ6pRMcl5jRcQ5mzX6F_u8HvDT2s2UW-nA6ogAv0DQmtjVbY1opapWRXwdeSv6MPy26Zcp4uYddu8UhohG5JNpJkqzvRoUKjNdzfK3gUGLY1LMND2cETZtl9hnQQ_oPTlGuXU1mirQ9JfbJr_Zp9uLyc2qeAmdd5dzuruUEcR5KWDRnhFFqWQSIKqca22TsFJOG9C2bHlCbrJTrqzChR8_H1_8WCH_5uoZHQ0P0HgKJv1g:1reMbA:gter_rI448N1ieTM-oahFLNpB4lAYTT61CkiM6PBijI",
+        "expire_date": "2024-03-10T22:03:52.685Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 2,
+    "fields": {
+        "first_name": "Martin",
+        "last_name": "Smith",
+        "designation": "Founder",
+        "photo": "photos/2024/02/20/avatar-11.jpg",
+        "facebook_link": "https://www.facebook.com/",
+        "twitter_link": "https://twitter.com/",
+        "google_plus_link": "https://google.com/",
+        "created_at": "2024-02-20T15:08:45.232Z",
+        "updated_at": "2024-02-20T15:08:45.232Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 3,
+    "fields": {
+        "first_name": "Stone",
+        "last_name": "Carolyn",
+        "designation": "Creative Director",
+        "photo": "photos/2024/02/20/avatar-9.jpg",
+        "facebook_link": "https://www.facebook.com/",
+        "twitter_link": "https://twitter.com/",
+        "google_plus_link": "https://google.com/",
+        "created_at": "2024-02-20T15:09:56.857Z",
+        "updated_at": "2024-02-20T15:09:56.857Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 4,
+    "fields": {
+        "first_name": "Brandon",
+        "last_name": "Miller",
+        "designation": "Manager",
+        "photo": "photos/2024/02/20/avatar-1.jpg",
+        "facebook_link": "https://www.facebook.com/",
+        "twitter_link": "https://twitter.com/",
+        "google_plus_link": "https://google.com/",
+        "created_at": "2024-02-20T15:11:03.675Z",
+        "updated_at": "2024-02-20T15:11:03.675Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 5,
+    "fields": {
+        "first_name": "Michelle",
+        "last_name": "Nelson",
+        "designation": "Co-Founder",
+        "photo": "photos/2024/02/20/avatar-12_bRNVV3l.jpg",
+        "facebook_link": "https://www.facebook.com/",
+        "twitter_link": "https://twitter.com/",
+        "google_plus_link": "https://google.com/",
+        "created_at": "2024-02-20T15:12:08.851Z",
+        "updated_at": "2024-02-20T15:12:08.851Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 6,
+    "fields": {
+        "first_name": "John",
+        "last_name": "Doe",
+        "designation": "CEO",
+        "photo": "photos/2024/02/20/avatar-3.jpg",
+        "facebook_link": "https://www.facebook.com/",
+        "twitter_link": "https://twitter.com/",
+        "google_plus_link": "https://google.com/",
+        "created_at": "2024-02-20T15:13:04.726Z",
+        "updated_at": "2024-02-20T15:13:04.726Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 1,
+    "fields": {
+        "car_title": "2017 Ferrari 488 GTB",
+        "state": "TX",
+        "city": "Austin",
+        "color": "White",
+        "model": "488 GTB",
+        "year": 2017,
+        "condition": "Used",
+        "price": 40000,
+        "description": "<p>The&nbsp;<strong>Ferrari 488</strong>&nbsp;(Type F142M) is a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Rear_mid-engine,_rear-wheel_drive_layout\" title=\"Rear mid-engine, rear-wheel drive layout\">mid-engine</a>&nbsp;<a href=\"https://en.wikipedia.org/wiki/Sports_car\" title=\"Sports car\">sports car</a>&nbsp;produced by the Italian automobile manufacturer&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari\" title=\"Ferrari\">Ferrari</a>. The car replaced the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari_458\" title=\"Ferrari 458\">458</a>, being the first mid-engine Ferrari to use a turbocharged V8 since the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari_F40\" title=\"Ferrari F40\">F40</a>. It was succeeded by the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari_F8\" title=\"Ferrari F8\">Ferrari F8</a>.</p>\r\n\r\n<p>The car is powered by a 3.9-litre&nbsp;<a href=\"https://en.wikipedia.org/wiki/Twin-turbocharged\" title=\"Twin-turbocharged\">twin-turbocharged</a>&nbsp;<a href=\"https://en.wikipedia.org/wiki/V8_engine\" title=\"V8 engine\">V8 engine</a>, smaller in displacement but generating a higher power output than the 458&#39;s&nbsp;<a href=\"https://en.wikipedia.org/wiki/Naturally_aspirated_engine\" title=\"Naturally aspirated engine\">naturally aspirated engine</a>. The 488 GTB was named &quot;The Supercar of the Year 2015&quot; by car magazine&nbsp;<em><a href=\"https://en.wikipedia.org/wiki/Top_Gear_(magazine)\" title=\"Top Gear (magazine)\">Top Gear</a></em>, as well as becoming&nbsp;<em><a href=\"https://en.wikipedia.org/wiki/Motor_Trend\" title=\"Motor Trend\">Motor Trend</a></em>&#39;s 2017 &quot;Best Driver&#39;s Car&quot;.<a href=\"https://en.wikipedia.org/wiki/Ferrari_488#cite_note-7\">[7]</a>&nbsp;<a href=\"https://en.wikipedia.org/wiki/Jeremy_Clarkson\" title=\"Jeremy Clarkson\">Jeremy Clarkson</a>&nbsp;announced the 488 Pista as his 2019 Supercar of the Year.<a href=\"https://en.wikipedia.org/wiki/Ferrari_488#cite_note-8\">[8]</a></p>",
+        "car_photo": "photos/2024/02/20/1902536891.jpg",
+        "car_photo_1": "photos/2024/02/20/1902536917.jpg",
+        "car_photo_2": "photos/2024/02/20/1902537043.jpg",
+        "car_photo_3": "photos/2024/02/20/1902537077.jpg",
+        "car_photo_4": "photos/2024/02/20/1902537082.jpg",
+        "features": "Audio Interface,Airbags,Seat Heating,ParkAssist,Wind Deflector",
+        "body_style": "Sport",
+        "engine": "3.4L Mid-Engine V6",
+        "transmission": "Automatic",
+        "interior": "Grey",
+        "miles": 10000,
+        "doors": "3",
+        "passengers": 2,
+        "vin_no": "WD34FBAS345ADS45",
+        "milage": 5,
+        "fuel_type": "Petrol",
+        "no_of_owner": "1",
+        "is_featured": true,
+        "created_at": "2024-02-20T21:02:00.396Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 2,
+    "fields": {
+        "car_title": "2017 Ford Edge",
+        "state": "TX",
+        "city": "Dallas",
+        "color": "Black",
+        "model": "Edge",
+        "year": 2017,
+        "condition": "Used",
+        "price": 25000,
+        "description": "<p>The&nbsp;<strong>Ford Edge</strong>&nbsp;is a range of&nbsp;<a href=\"https://en.wikipedia.org/wiki/Crossover_(automobile)\" title=\"Crossover (automobile)\">crossover SUVs</a>&nbsp;manufactured by the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Motor_Company\" title=\"Ford Motor Company\">Ford Motor Company</a>. Introduced for the 2007 model year, the Edge is the first&nbsp;<a href=\"https://en.wikipedia.org/wiki/Mid-size_CUV\" title=\"Mid-size CUV\">mid-size CUV</a>&nbsp;marketed by Ford in North America; the model line is currently in its second generation. Deriving its name from a trim package of the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Ranger_(Americas)\" title=\"Ford Ranger (Americas)\">Ford Ranger</a>, the Ford Edge is positioned between the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Escape\" title=\"Ford Escape\">Ford Escape</a>&nbsp;and the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Explorer\" title=\"Ford Explorer\">Ford Explorer</a>&nbsp;within the Ford product line.</p>\r\n\r\n<p>Sharing its underpinnings with the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Fusion_(Americas)\" title=\"Ford Fusion (Americas)\">Ford Fusion sedan</a>, Ford has also produced the model line as the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Lincoln_MKX\" title=\"Lincoln MKX\">Lincoln MKX</a>&nbsp;(since 2019, the Lincoln Nautilus). The second generation is also marketed by&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_of_Europe\" title=\"Ford of Europe\">Ford of Europe</a>, positioned between the Kuga (Escape) and the Explorer PHEV.</p>\r\n\r\n<p>All production of the first two generations of the Ford Edge is sourced from&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Motor_Company_of_Canada\" title=\"Ford Motor Company of Canada\">Ford of Canada</a>&nbsp;at&nbsp;<a href=\"https://en.wikipedia.org/wiki/Oakville_Assembly\" title=\"Oakville Assembly\">Oakville Assembly</a>&nbsp;(<a href=\"https://en.wikipedia.org/wiki/Oakville,_Ontario\" title=\"Oakville, Ontario\">Oakville, Ontario</a>) alongside the Nautilus.</p>\r\n\r\n<p>The third generation launched in 2023 is called the Edge L, and was first produced and sold exclusively in China.</p>",
+        "car_photo": "photos/2024/02/21/1901478607.jpg",
+        "car_photo_1": "photos/2024/02/21/1901478618.jpg",
+        "car_photo_2": "photos/2024/02/21/1901478646.jpg",
+        "car_photo_3": "photos/2024/02/21/1901478672.jpg",
+        "car_photo_4": "photos/2024/02/21/1901478687.jpg",
+        "features": "Cruise Control,Air Conditioning,ParkAssist,Direct Fuel Injection,Auto Start/Stop,Wind Deflector",
+        "body_style": "SUV",
+        "engine": "3.4L Mid-Engine V7",
+        "transmission": "Automatic",
+        "interior": "Grey",
+        "miles": 15000,
+        "doors": "5",
+        "passengers": 5,
+        "vin_no": "WD34FBA2345ADS45",
+        "milage": 8,
+        "fuel_type": "Petrol",
+        "no_of_owner": "2",
+        "is_featured": true,
+        "created_at": "2024-02-21T11:18:18.959Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 3,
+    "fields": {
+        "car_title": "2017 Ford F-250 Super Duty",
+        "state": "NY",
+        "city": "Chio",
+        "color": "Black",
+        "model": "F-250",
+        "year": 2017,
+        "condition": "Used",
+        "price": 30000,
+        "description": "<p>The&nbsp;<strong>Ford Super Duty</strong>&nbsp;(also known as the&nbsp;<strong>Ford F-Series Super Duty</strong>) is a series of heavy-duty pickup trucks produced by the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Motor_Company\" title=\"Ford Motor Company\">Ford Motor Company</a>&nbsp;since the 1999 model year. Slotted above the consumer-oriented Ford&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_F-Series\" title=\"Ford F-Series\">F-150</a>, the Super Duty trucks are an expansion of the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_F-Series\" title=\"Ford F-Series\">Ford F-Series</a>&nbsp;range, from F-250 to the F-600. The F-250 through F-450 are offered as pickup trucks, while the F-350 through F-600 are offered as&nbsp;<a href=\"https://en.wikipedia.org/wiki/Chassis_cab\" title=\"Chassis cab\">chassis cabs</a>.</p>",
+        "car_photo": "photos/2024/02/21/1894300894.jpg",
+        "car_photo_1": "photos/2024/02/21/1894300905.jpg",
+        "car_photo_2": "photos/2024/02/21/1894300920.jpg",
+        "car_photo_3": "photos/2024/02/21/1900155012.jpg",
+        "car_photo_4": "photos/2024/02/21/1900155133.jpg",
+        "features": "Audio Interface,Airbags,Air Conditioning,Alarm System,Power Steering,Auto Start/Stop",
+        "body_style": "SUV",
+        "engine": "3.4L Mid-Engine V7",
+        "transmission": "Automatic",
+        "interior": "Grey",
+        "miles": 13000,
+        "doors": "3",
+        "passengers": 1,
+        "vin_no": "WD34FBAS345ATT54",
+        "milage": 10,
+        "fuel_type": "Diesel",
+        "no_of_owner": "1",
+        "is_featured": false,
+        "created_at": "2024-02-21T11:22:36.230Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 4,
+    "fields": {
+        "car_title": "2017 Jaguar F-PACE",
+        "state": "TX",
+        "city": "Austin",
+        "color": "Green",
+        "model": "F-PACE",
+        "year": 2017,
+        "condition": "Used",
+        "price": 50000,
+        "description": "<p>The&nbsp;<strong>Jaguar F-Pace</strong>&nbsp;(X761) is a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Compact_luxury_crossover_SUV\" title=\"Compact luxury crossover SUV\">compact luxury crossover SUV</a>&nbsp;made by&nbsp;<a href=\"https://en.wikipedia.org/wiki/Jaguar_Land_Rover\" title=\"Jaguar Land Rover\">Jaguar Land Rover</a>, a British&nbsp;<a href=\"https://en.wikipedia.org/wiki/Car_manufacturer\" title=\"Car manufacturer\">car manufacturer</a>, under their&nbsp;<a href=\"https://en.wikipedia.org/wiki/Jaguar_marque\" title=\"Jaguar marque\">Jaguar marque</a>. It is the first model to be built by Jaguar in the SUV class. It was formally announced at the&nbsp;<a href=\"https://en.wikipedia.org/wiki/2015_North_American_International_Auto_Show\" title=\"2015 North American International Auto Show\">2015 North American International Auto Show</a>&nbsp;in Detroit, with sales commencing in 2016 following an unveiling at the&nbsp;<a href=\"https://en.wikipedia.org/wiki/2015_International_Motor_Show_Germany\" title=\"2015 International Motor Show Germany\">2015 International Motor Show Germany</a>&nbsp;in Frankfurt.<a href=\"https://en.wikipedia.org/wiki/Jaguar_F-Pace#cite_note-4\">[4]</a></p>\r\n\r\n<p>The design of the F-Pace is based on the 2013&nbsp;<a href=\"https://en.wikipedia.org/wiki/Jaguar_C-X17\" title=\"Jaguar C-X17\">Jaguar C-X17</a>&nbsp;concept car.<a href=\"https://en.wikipedia.org/wiki/Jaguar_F-Pace#cite_note-BBC_News_120115-5\">[5]</a>&nbsp;The 2017 Jaguar F-Pace has been named the honorary winner of the 2017 World Car of the Year and World Car Design of the Year Awards at the&nbsp;<a href=\"https://en.wikipedia.org/wiki/New_York_International_Auto_Show\" title=\"New York International Auto Show\">New York International Auto Show</a>.<a href=\"https://en.wikipedia.org/wiki/Jaguar_F-Pace#cite_note-6\">[6]</a><a href=\"https://en.wikipedia.org/wiki/Jaguar_F-Pace#cite_note-7\">[7]</a>&nbsp;The F-Pace is built at&nbsp;<a href=\"https://en.wikipedia.org/wiki/Jaguar_Land_Rover\" title=\"Jaguar Land Rover\">Jaguar Land Rover</a>&#39;s&nbsp;<a href=\"https://en.wikipedia.org/wiki/Solihull_plant\" title=\"Solihull plant\">Solihull plant</a>&nbsp;along with the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Range_Rover_Velar\" title=\"Range Rover Velar\">Range Rover Velar</a>&nbsp;and employs an additional 1,300 workers.<a href=\"https://en.wikipedia.org/wiki/Jaguar_F-Pace#cite_note-BBC_News_120115-5\">[5]</a></p>",
+        "car_photo": "photos/2024/02/21/1902932503.jpg",
+        "car_photo_1": "photos/2024/02/21/1902932514.jpg",
+        "car_photo_2": "photos/2024/02/21/1902932528.jpg",
+        "car_photo_3": "photos/2024/02/21/1902932542.jpg",
+        "car_photo_4": "",
+        "features": "Cruise Control,Audio Interface,Airbags,ParkAssist,Reversing Camera",
+        "body_style": "SUV",
+        "engine": "3.4L Mid-Engine V4",
+        "transmission": "Automatic",
+        "interior": "Black",
+        "miles": 12500,
+        "doors": "5",
+        "passengers": 5,
+        "vin_no": "WD4L5BAS345ATT54",
+        "milage": 7,
+        "fuel_type": "Petrol",
+        "no_of_owner": "1",
+        "is_featured": true,
+        "created_at": "2024-02-21T11:28:54.065Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 5,
+    "fields": {
+        "car_title": "BMW 5 Series",
+        "state": "CA",
+        "city": "Heydar",
+        "color": "Black",
+        "model": "5i",
+        "year": 2023,
+        "condition": "Used",
+        "price": 50000,
+        "description": "<p>The&nbsp;<strong>BMW 5 Series (G60)</strong>&nbsp;is an&nbsp;<a href=\"https://en.wikipedia.org/wiki/Executive_car\" title=\"Executive car\">executive car</a>&nbsp;manufactured and marketed by German luxury automaker&nbsp;<a href=\"https://en.wikipedia.org/wiki/BMW\" title=\"BMW\">BMW</a>&nbsp;since 2023. The lineup consists of the G60&nbsp;<a href=\"https://en.wikipedia.org/wiki/Sedan_(automobile)\" title=\"Sedan (automobile)\">saloon</a>, G61&nbsp;<a href=\"https://en.wikipedia.org/wiki/Station_wagon\" title=\"Station wagon\">estate</a>&nbsp;(marketed as&nbsp;<em>Touring</em>), and the G68 long-wheelbase sedan. It represents the eighth generation of the&nbsp;<a href=\"https://en.wikipedia.org/wiki/BMW_5_Series\" title=\"BMW 5 Series\">BMW 5 Series</a>, succeeding the&nbsp;<a href=\"https://en.wikipedia.org/wiki/BMW_5_Series_(G30)\" title=\"BMW 5 Series (G30)\">G30 model</a>&nbsp;and the&nbsp;<a href=\"https://en.wikipedia.org/wiki/BMW_6_Series_(G32)\" title=\"BMW 6 Series (G32)\">G32 6 Series</a>&nbsp;liftback.</p>\r\n\r\n<p>The G60 was officially revealed on 24 May 2023, began production on 21 July 2023, with sales commencing in October. Built upon an updated version the rear-wheel drive&nbsp;<a href=\"https://en.wikipedia.org/wiki/BMW_CLAR_platform\" title=\"BMW CLAR platform\">Cluster Architecture (CLAR)</a>&nbsp;platform, shared with the larger&nbsp;<a href=\"https://en.wikipedia.org/wiki/BMW_7_Series_(G70)\" title=\"BMW 7 Series (G70)\">G70 7 Series</a>, it is significantly larger than any of its predecessors. The eighth generation BMW 5 Series is also offered with a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Battery_electric_vehicle\" title=\"Battery electric vehicle\">battery electric</a>&nbsp;powertrain, called the &quot;i5&quot;. Three models are offered; the entry-level, rear-wheel-drive eDrive40 model, the mid-range, all-wheel-drive xDrive40, and the range topping M60 xDrive model.</p>\r\n\r\n<p>A long-wheelbase saloon model (G68) exclusive to China debuted in August 2023 and it is assembled at the&nbsp;<a href=\"https://en.wikipedia.org/wiki/BMW_Brilliance\" title=\"BMW Brilliance\">Dadong</a>&nbsp;plant.<a href=\"https://en.wikipedia.org/wiki/BMW_5_Series_(G60)#cite_note-1\">[1]</a>&nbsp;The G61 5 Series Touring was unveiled in February 2024.<a href=\"https://en.wikipedia.org/wiki/BMW_5_Series_(G60)#cite_note-:5-2\">[2]</a>&nbsp;The fastback derivative, the&nbsp;<a href=\"https://en.wikipedia.org/wiki/BMW_6_Series_(G32)\" title=\"BMW 6 Series (G32)\">6 Series Gran Turismo</a>&nbsp;has been discontinued.</p>",
+        "car_photo": "photos/2024/02/21/1BMW_G60_520d_1X7A1681.jpg",
+        "car_photo_1": "photos/2024/02/21/bmw_5series_503.jpg",
+        "car_photo_2": "photos/2024/02/21/bmw_5series_505.jpg",
+        "car_photo_3": "photos/2024/02/21/bmw_5series_504.jpg",
+        "car_photo_4": "photos/2024/02/21/bmw_5series_506.jpg",
+        "features": "Cruise Control,Air Conditioning,Alarm System,Power Steering,Reversing Camera,Wind Deflector",
+        "body_style": "Saloon",
+        "engine": "2.0 L B48 I4 turbo",
+        "transmission": "Automatic",
+        "interior": "Grey",
+        "miles": 20000,
+        "doors": "4",
+        "passengers": 5,
+        "vin_no": "WD34FD5S345ADS45",
+        "milage": 7,
+        "fuel_type": "Petrol",
+        "no_of_owner": "1",
+        "is_featured": true,
+        "created_at": "2024-02-21T14:12:35.853Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 6,
+    "fields": {
+        "car_title": "Mercedes-Benz G-Class",
+        "state": "AZ",
+        "city": "Kerman",
+        "color": "Black",
+        "model": "G-Class",
+        "year": 2022,
+        "condition": "Used",
+        "price": 66000,
+        "description": "<p>The&nbsp;<strong>Mercedes-Benz G-Class</strong>, colloquially known as the&nbsp;<strong>G-Wagen</strong><a href=\"https://en.wikipedia.org/wiki/Mercedes-Benz_G-Class#cite_note-3\">[3]</a>&nbsp;(as an abbreviation of&nbsp;<strong>Gel&auml;ndewagen</strong>) is a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Four-wheel_drive\" title=\"Four-wheel drive\">four-wheel drive</a>&nbsp;automobile manufactured by&nbsp;<a href=\"https://en.wikipedia.org/wiki/Magna_Steyr\" title=\"Magna Steyr\">Magna Steyr</a>&nbsp;(formerly&nbsp;<a href=\"https://en.wikipedia.org/wiki/Steyr-Daimler-Puch\" title=\"Steyr-Daimler-Puch\">Steyr-Daimler-Puch</a>) in Austria and sold by&nbsp;<a href=\"https://en.wikipedia.org/wiki/Mercedes-Benz\" title=\"Mercedes-Benz\">Mercedes-Benz</a>. Originally developed as a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Military_jeep\" title=\"Military jeep\">military off-roader</a>, later more&nbsp;<a href=\"https://en.wikipedia.org/wiki/Luxury_car\" title=\"Luxury car\">luxurious</a>&nbsp;models were added to the line. In certain markets, it was sold under the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Puch\" title=\"Puch\">Puch</a>&nbsp;name as&nbsp;<strong>Puch G</strong>&nbsp;until 2000.</p>\r\n\r\n<p>The G-Wagen is characterised by its boxy styling and&nbsp;<a href=\"https://en.wikipedia.org/wiki/Body-on-frame\" title=\"Body-on-frame\">body-on-frame</a>&nbsp;construction. It uses three fully&nbsp;<a href=\"https://en.wikipedia.org/wiki/Locking_differential\" title=\"Locking differential\">locking differentials</a>, one of the few passenger car vehicles to have such a feature.</p>\r\n\r\n<p>Despite the introduction of an intended replacement, the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Unibody\" title=\"Unibody\">unibody</a>&nbsp;SUV&nbsp;<a href=\"https://en.wikipedia.org/wiki/Mercedes-Benz_GL-Class\" title=\"Mercedes-Benz GL-Class\">Mercedes-Benz GL-Class</a>&nbsp;in 2006, the G-Class is still in production and is one of the longest-produced vehicles in Daimler&#39;s history, with a span of&nbsp;44 years. Only the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Unimog\" title=\"Unimog\">Unimog</a>&nbsp;surpasses it.<a href=\"https://en.wikipedia.org/wiki/Mercedes-Benz_G-Class#cite_note-4\">[4]</a>&nbsp;In 2018, Mercedes-Benz introduced the second-generation W463 with heavily revised chassis, powertrain, body, and interior. In 2023, Mercedes-Benz announced plans to launch a smaller version of the G-Class, named &quot;little G&quot;&mdash;though no definitive date was given for the launch.<a href=\"https://en.wikipedia.org/wiki/Mercedes-Benz_G-Class#cite_note-5\">[5]</a></p>",
+        "car_photo": "photos/2024/02/21/g-class-exterior-right-front-three-quarter-3.webp",
+        "car_photo_1": "photos/2024/02/21/g-class-exterior-rear-view.webp",
+        "car_photo_2": "photos/2024/02/21/g-class-exterior-front-view.webp",
+        "car_photo_3": "photos/2024/02/21/2022-Mercedes-Benz-G400d-36.jpg",
+        "car_photo_4": "photos/2024/02/21/2022-Mercedes-Benz-G400d-8.jpg",
+        "features": "Airbags,Alarm System,Auto Start/Stop,Wind Deflector",
+        "body_style": "SVB",
+        "engine": "2.3L M 102 E 23 I4",
+        "transmission": "Automatic",
+        "interior": "Grey",
+        "miles": 30000,
+        "doors": "4",
+        "passengers": 5,
+        "vin_no": "WD4L5BAS395ATT54",
+        "milage": 8,
+        "fuel_type": "Diesel",
+        "no_of_owner": "1",
+        "is_featured": false,
+        "created_at": "2024-02-21T14:18:08.894Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 2,
+    "fields": {
+        "first_name": "Root",
+        "last_name": "Rooti",
+        "car_id": 1,
+        "customer_need": "I'm interested in this",
+        "car_title": "2017 Ferrari 488 GTB",
+        "city": "Heydara",
+        "state": "jaghori",
+        "email": "root@gmail.com",
+        "phone": "09111111111",
+        "message": "How can i buy this car",
+        "user_id": 1,
+        "created_at": "2024-02-26T20:30:55.953Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 3,
+    "fields": {
+        "first_name": "john",
+        "last_name": "doe",
+        "car_id": 6,
+        "customer_need": "I'm interested in this",
+        "car_title": "Mercedes-Benz G-Class",
+        "city": "Austin",
+        "state": "Texas",
+        "email": "john_doe@gmail.com",
+        "phone": "09121234567",
+        "message": "Hi",
+        "user_id": 3,
+        "created_at": "2024-02-26T20:50:49.028Z"
+    }
+},
+{
+    "model": "sites.site",
+    "fields": {
+        "domain": "localhost:8000",
+        "name": "localhost:8000"
+    }
+},
+{
+    "model": "socialaccount.socialapp",
+    "pk": 1,
+    "fields": {
+        "provider": "google",
+        "provider_id": "",
+        "name": "Google login",
+        "client_id": "606016950828-o86vvj58e0sqtissr0nb4pjnkspli66v.apps.googleusercontent.com",
+        "secret": "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",
+        "key": "",
+        "settings": {},
+        "sites": [
+            [
+                "localhost:8000"
+            ]
+        ]
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2024-02-20T15:02:30.919Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Team object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2024-02-20T15:07:48.004Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Jack Nilson",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2024-02-20T15:08:45.233Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "2",
+        "object_repr": "Martin Smith",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2024-02-20T15:09:56.857Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "3",
+        "object_repr": "Stone Carolyn",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2024-02-20T15:11:03.675Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "4",
+        "object_repr": "Brandon Miller",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2024-02-20T15:12:08.851Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "5",
+        "object_repr": "Michelle Nelson",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2024-02-20T15:13:04.727Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "6",
+        "object_repr": "John Doe",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2024-02-20T21:02:00.397Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "1",
+        "object_repr": "Car object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2024-02-21T11:18:18.960Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "2",
+        "object_repr": "Car object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2024-02-21T11:22:36.231Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "3",
+        "object_repr": "Car object (3)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2024-02-21T11:28:54.066Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "4",
+        "object_repr": "Car object (4)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2024-02-21T12:39:54.785Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "4",
+        "object_repr": "2017 Jaguar F-PACE",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Car photo 4\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2024-02-21T12:56:51.986Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "4",
+        "object_repr": "2017 Jaguar F-PACE",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Car photo 4\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2024-02-21T14:12:35.854Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "5",
+        "object_repr": "BMW 5 Series",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2024-02-21T14:18:08.895Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "6",
+        "object_repr": "Mercedes-Benz G-Class",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2024-02-23T17:00:16.998Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "6",
+        "object_repr": "Mercedes-Benz G-Class",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2024-02-23T17:05:46.699Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "6",
+        "object_repr": "Mercedes-Benz G-Class",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2024-02-23T17:06:24.077Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "6",
+        "object_repr": "Mercedes-Benz G-Class",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2024-02-24T22:24:57.846Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "2",
+        "object_repr": "rouhi",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2024-02-25T21:22:26.625Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "1",
+        "object_repr": "Google login",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2024-02-25T21:23:32.019Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "1",
+        "object_repr": "http://localhost:8000/",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2024-02-25T21:23:41.801Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "1",
+        "object_repr": "Google login",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2024-02-25T21:32:15.706Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "1",
+        "object_repr": "localhost:8000",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2024-02-27T06:53:14.740Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "1",
+        "object_repr": "root",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2024-02-27T07:25:54.076Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "4",
+        "object_repr": "rouhollah",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2024-02-27T07:26:29.364Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "contacts",
+            "contact"
+        ],
+        "object_id": "1",
+        "object_repr": "rouhi0011@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+}
+]
